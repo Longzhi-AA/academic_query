@@ -1,13 +1,11 @@
 package org.acq.lz.service.query;
 
 
-import org.acq.lz.service.query.externals.springer.SpringerSearch;
+import org.acq.lz.service.query.externals.springer.SpringerSearchJson;
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest(classes = {SpringerSearch.class, ExternalSearchProvider.class})
+@SpringBootTest(classes = {SpringerSearchJson.class, ExternalSearchProvider.class})
 public class ExternalSearchTest {
 
 //    @Autowired
@@ -16,7 +14,7 @@ public class ExternalSearchTest {
 
     @Test
     public void testSpringerSearch(){
-        SpringerSearch springerSearch = new SpringerSearch();
+        SpringerSearchJson springerSearch = new SpringerSearchJson();
         ICustomSearchResult result = springerSearch.search("spring", false);
         System.out.println(result.getTotalResults());
 

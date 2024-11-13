@@ -1,0 +1,729 @@
+{
+  "apiMessage": "This JSON was provided by Springer Nature",
+  "query": "AI TALK",
+  "apiKey": "cfd1b47b8f35b8ad13df890ac03c826e",
+  "nextPage": "/meta/v2/json?q=AI TALK&p=2&api_key=cfd1b47b8f35b8ad13df890ac03c826e&s=3",
+  "result":
+  [
+    {
+      "total": "140311",
+      "start": "1",
+      "pageLength": "2",
+      "recordsDisplayed": "2"
+    }
+  ],
+  "records":
+  [
+    {
+      "contentType": "Chapter ConferencePaper",
+      "identifier": "doi:10.1007/978-981-97-9793-6_9",
+      "language": "en",
+      "url":
+      [
+        {
+          "format": "html",
+          "platform": "web",
+          "value": "http://link.springer.com/openurl/fulltext?id=doi:10.1007/978-981-97-9793-6_9"
+        },
+        {
+          "format": "pdf",
+          "platform": "web",
+          "value": "http://link.springer.com/openurl/pdf?id=doi:10.1007/978-981-97-9793-6_9"
+        },
+        {
+          "format": "",
+          "platform": "",
+          "value": "http://dx.doi.org/10.1007/978-981-97-9793-6_9"
+        }
+      ],
+      "title": "Challenges of Open World Games for AI: Insights from Human Gameplay",
+      "creators":
+      [
+        {
+          "ORCID": "0000-0003-1258-4915",
+          "creator": "Barbero, Giulio"
+        },
+        {
+          "ORCID": "0000-0002-2107-2180",
+          "creator": "Müller-Brockhausen, Matthias"
+        },
+        {
+          "ORCID": "0000-0003-4681-1346",
+          "creator": "Preuss, Mike"
+        }
+      ],
+      "bookEditors":
+      [
+        {
+          "bookEditor": "Anutariya, Chutiporn"
+        },
+        {
+          "bookEditor": "Bonsangue, Marcello M."
+        },
+        {
+          "bookEditor": "Budhiarti-Nababan, Erna"
+        },
+        {
+          "bookEditor": "Sitompul, Opim Salim"
+        }
+      ],
+      "publicationName": "Data Science and Artificial Intelligence",
+      "openaccess": "false",
+      "doi": "10.1007/978-981-97-9793-6_9",
+      "publisher": "Springer",
+      "publisherName": "Springer Nature Singapore",
+      "publicationDate": "2025-01-01",
+      "publicationType": "Book",
+      "printIsbn": "978-981-97-9792-9",
+      "electronicIsbn": "978-981-97-9793-6",
+      "isbn": "978-981-97-9792-9",
+      "genre": "OriginalPaper Proceedings",
+      "onlineDate": "2024-11-09",
+      "seriesId": "7899",
+      "copyright": "©2025 The Editor(s) (if applicable) and The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd.",
+      "abstract": "Games represent significant arenas for testing artificial intelligence (AI) technologies. Open world games, characterised by free environments and non-linear gameplay, present the next challenge for AI due to the central role of exploration, adaptability and contextual understanding. This paper investigates the relation between AI and open world games, by analysing human interaction within these environments to guide AI development. Drawing on a methodology based on human-computer interaction, we use a talk-aloud protocol to gather gameplay data from participants engaging with the game “The Outer Worlds”. Through observation, manual and GPT-3.5 clustering, we investigate three main aspects of open world gaming: planning, decision-making, and interaction. Our findings reveal the complexity, reliance on generalization and necessity of coordination of open world games. While recent advancements in artificial general intelligence offer promising solutions to address computational challenges and improve coordination, the issue of generalization remains a significant hurdle for AI. Our research highlights the role of human experience and knowledge in interacting with open world games. By defining the challenges faced by AI and giving a central role to human game play, we lay the foundations for future developments of AI capabilities.",
+      "conferenceInfo":
+      [
+        {
+          "confSeriesName": "International Conference on Data Science and Artificial Intelligence",
+          "confSeriesID":
+          [
+            {
+              "type": "Springer",
+              "value": "dsai"
+            },
+            {
+              "type": "DBLP",
+              "value": "dsai"
+            }
+          ],
+          "confEventID":
+          [
+            {
+              "type": "Springer",
+              "value": "dsai2024"
+            }
+          ],
+          "confEventAbbreviation": "DSAI",
+          "confEventLocation":
+          [
+            {
+              "locationType": "InPerson",
+              "city": "Medan",
+              "country":
+              [
+                {
+                  "code": "ID",
+                  "value": "Indonesia"
+                }
+              ]
+            }
+          ],
+          "confEventDateStart":
+          [
+            {
+              "year": "2024",
+              "month": "11",
+              "day": "13"
+            }
+          ],
+          "confEventDateEnd":
+          [
+            {
+              "year": "2024",
+              "month": "11",
+              "day": "15"
+            }
+          ]
+        }
+      ],
+      "keyword":
+      [
+        "open world games",
+        "artificial intelligence",
+        "human-computer interaction",
+        "decision making",
+        "planning",
+        "fuzzy goals"
+      ],
+      "subjects":
+      [
+        "Computer Science",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Data Structures and Information Theory",
+        "Image Processing and Computer Vision",
+        "Natural Language Processing (NLP)"
+      ],
+      "disciplines":
+      [
+        {
+          "id": "2970",
+          "term": "Artificial Intelligence"
+        },
+        {
+          "id": "3817",
+          "term": "Machine Learning"
+        },
+        {
+          "id": "2967",
+          "term": "Data Science"
+        },
+        {
+          "id": "4777",
+          "term": "Computer Vision"
+        },
+        {
+          "id": "5042",
+          "term": "Natural Language Processing (NLP)"
+        }
+      ]
+    },
+    {
+      "contentType": "Chapter",
+      "identifier": "doi:10.1007/978-3-031-65207-3_51",
+      "language": "en",
+      "url":
+      [
+        {
+          "format": "html",
+          "platform": "web",
+          "value": "http://link.springer.com/openurl/fulltext?id=doi:10.1007/978-3-031-65207-3_51"
+        },
+        {
+          "format": "pdf",
+          "platform": "web",
+          "value": "http://link.springer.com/openurl/pdf?id=doi:10.1007/978-3-031-65207-3_51"
+        },
+        {
+          "format": "",
+          "platform": "",
+          "value": "http://dx.doi.org/10.1007/978-3-031-65207-3_51"
+        }
+      ],
+      "title": "AI in Healthcare and Economic Growth: A Comparative Analysis of Developed and Emerging Economies",
+      "creators":
+      [
+        {
+          "ORCID": "0000-0003-0416-8700",
+          "creator": "Begum, Salma"
+        },
+        {
+          "creator": "Paul, Shreyasi"
+        }
+      ],
+      "bookEditors":
+      [
+        {
+          "bookEditor": "Alareeni, Bahaaeddin"
+        },
+        {
+          "bookEditor": "Elgedawy, Islam"
+        }
+      ],
+      "publicationName": "Opportunities and Risks in AI for Business Development",
+      "openaccess": "false",
+      "doi": "10.1007/978-3-031-65207-3_51",
+      "publisher": "Springer",
+      "publisherName": "Springer Nature Switzerland",
+      "publicationDate": "2025-01-01",
+      "publicationType": "Book",
+      "printIsbn": "978-3-031-65206-6",
+      "electronicIsbn": "978-3-031-65207-3",
+      "isbn": "978-3-031-65206-6",
+      "genre": "OriginalPaper Contributed volume",
+      "onlineDate": "2024-10-19",
+      "seriesId": "13304",
+      "copyright": "©2025 The Editor(s) (if applicable) and The Author(s), under exclusive license to Springer Nature Switzerland AG",
+      "abstract": "The era of artificial Intelligence is overpowered by various advancements in algorithmic, machine learning that have the potential to advance several industries such as healthcare, agriculture, education, manufacturing, retail, and so on. AI in healthcare is the need of the hour as it can bridge the gap between the demand for healthcare services and the supply of the same due to the lack of health manpower. The crucial factor in deciding whether to invest in artificial intelligence (AI) in the healthcare sector depends on the GDP of the country since it requires huge investments. This study discusses selected advanced and emerging economies’ investments in AI in healthcare and whether their GDP played a crucial role in the decision. This study is based on secondary data gathered from different published reports. This paper focuses on analyzing the worldwide AI-health investment and GDP trends of countries across the globe in the past 10 years using trend analysis. Further, a correlation test is done between AI in healthcare and the GDP of selected countries, the result shows that both the variables are strongly positively correlated. A multiple correlation analysis is done to measure the relationship between the GDP and Investment in AI in healthcare of the selected countries. Artificial intelligence (AI) has become a revolutionary force in the global economy, with investments in AI technology and applications increasing significantly in both developed and developing nations. With the growing significance of developing nations, these countries are projected to play an important part in the AI revolution. AI investment has increased rapidly in emerging economies such as India, Brazil, and South Africa during the last decade. Artificial intelligence can significantly improve the state of healthcare around the world as healthcare solution providers look to boost output and efficiency. The result of the multiple regression depicts that the GDP plays a vital role in investment in AI healthcare. Investment in human-AI collaboration in the healthcare sector will help countries mitigate the shortage of health manpower and improve in providing timely healthcare services.",
+      "conferenceInfo":
+      [
+
+      ],
+      "keyword":
+      [
+        "Artificial intelligence",
+        "Healthcare AI",
+        "Technology",
+        "GDP",
+        "Global health",
+        "Investment in health",
+        "Emerging economies"
+      ],
+      "subjects":
+      [
+        "Engineering",
+        "Mathematical and Computational Engineering",
+        "Engineering Mathematics",
+        "Artificial Intelligence",
+        "Computer Science, general"
+      ],
+      "disciplines":
+      [
+        {
+          "id": "4539",
+          "term": "Mathematical and Computational Engineering Applications"
+        },
+        {
+          "id": "8300",
+          "term": "Engineering Mathematics"
+        },
+        {
+          "id": "2970",
+          "term": "Artificial Intelligence"
+        },
+        {
+          "id": "7748",
+          "term": "Business Informatics"
+        }
+      ]
+    }
+  ],
+  "facets":
+  [
+    {
+      "name": "subject",
+      "values":
+      [
+        {
+          "value": "Computer Science",
+          "count": "26497"
+        },
+        {
+          "value": "Artificial Intelligence",
+          "count": "18497"
+        },
+        {
+          "value": "Medicine & Public Health",
+          "count": "14826"
+        },
+        {
+          "value": "Engineering",
+          "count": "11208"
+        },
+        {
+          "value": "Physics",
+          "count": "9302"
+        },
+        {
+          "value": "Biomedicine",
+          "count": "7943"
+        },
+        {
+          "value": "Life Sciences",
+          "count": "7835"
+        },
+        {
+          "value": "Mathematics",
+          "count": "7506"
+        },
+        {
+          "value": "Philosophy",
+          "count": "7371"
+        },
+        {
+          "value": "Psychology",
+          "count": "6158"
+        },
+        {
+          "value": "Business and Management",
+          "count": "5876"
+        },
+        {
+          "value": "User Interfaces and Human Computer Interaction",
+          "count": "5719"
+        },
+        {
+          "value": "Computer Communication Networks",
+          "count": "5555"
+        },
+        {
+          "value": "Computational Intelligence",
+          "count": "5022"
+        },
+        {
+          "value": "Education",
+          "count": "4970"
+        },
+        {
+          "value": "Social Sciences",
+          "count": "4759"
+        },
+        {
+          "value": "Neurosciences",
+          "count": "4325"
+        },
+        {
+          "value": "Information Systems Applications (incl. Internet)",
+          "count": "4321"
+        },
+        {
+          "value": "Cell Biology",
+          "count": "4168"
+        },
+        {
+          "value": "Public Health",
+          "count": "3830"
+        }
+      ]
+    },
+    {
+      "name": "keyword",
+      "values":
+      [
+        {
+          "value": "Artificial intelligence",
+          "count": "2291"
+        },
+        {
+          "value": "Machine learning",
+          "count": "1643"
+        },
+        {
+          "value": "Deep learning",
+          "count": "922"
+        },
+        {
+          "value": "Artificial Intelligence",
+          "count": "800"
+        },
+        {
+          "value": "COVID-19",
+          "count": "715"
+        },
+        {
+          "value": "Cancer",
+          "count": "559"
+        },
+        {
+          "value": "Ethics",
+          "count": "552"
+        },
+        {
+          "value": "AI",
+          "count": "512"
+        },
+        {
+          "value": "Technology",
+          "count": "502"
+        },
+        {
+          "value": "Inflammation",
+          "count": "495"
+        },
+        {
+          "value": "Breast cancer",
+          "count": "425"
+        },
+        {
+          "value": "Education",
+          "count": "423"
+        },
+        {
+          "value": "Natural language processing",
+          "count": "392"
+        },
+        {
+          "value": "Big data",
+          "count": "385"
+        },
+        {
+          "value": "Blockchain",
+          "count": "352"
+        },
+        {
+          "value": "Sustainability",
+          "count": "350"
+        },
+        {
+          "value": "Social media",
+          "count": "344"
+        },
+        {
+          "value": "IoT",
+          "count": "331"
+        },
+        {
+          "value": "Oxidative stress",
+          "count": "327"
+        },
+        {
+          "value": "Apoptosis",
+          "count": "324"
+        }
+      ]
+    },
+    {
+      "name": "pub",
+      "values":
+      [
+        {
+          "value": "Journal of High Energy Physics",
+          "count": "1035"
+        },
+        {
+          "value": "AI & SOCIETY",
+          "count": "1013"
+        },
+        {
+          "value": "Scientific Reports",
+          "count": "991"
+        },
+        {
+          "value": "Nature",
+          "count": "843"
+        },
+        {
+          "value": "Synthese",
+          "count": "524"
+        },
+        {
+          "value": "Multimedia Tools and Applications",
+          "count": "418"
+        },
+        {
+          "value": "BMC Public Health",
+          "count": "331"
+        },
+        {
+          "value": "Nature Communications",
+          "count": "331"
+        },
+        {
+          "value": "International Journal of Social Robotics",
+          "count": "300"
+        },
+        {
+          "value": "Communications in Mathematical Physics",
+          "count": "285"
+        },
+        {
+          "value": "Minds and Machines",
+          "count": "284"
+        },
+        {
+          "value": "Cellular and Molecular Life Sciences",
+          "count": "263"
+        },
+        {
+          "value": "Artificial Intelligence Review",
+          "count": "252"
+        },
+        {
+          "value": "Education and Information Technologies",
+          "count": "242"
+        },
+        {
+          "value": "Journal of Business Ethics",
+          "count": "232"
+        },
+        {
+          "value": "Oncogene",
+          "count": "228"
+        },
+        {
+          "value": "BMC Health Services Research",
+          "count": "222"
+        },
+        {
+          "value": "Molecular Neurobiology",
+          "count": "216"
+        },
+        {
+          "value": "Psychiatric Quarterly",
+          "count": "213"
+        },
+        {
+          "value": "Il Nuovo Cimento A (1965-1970)",
+          "count": "211"
+        }
+      ]
+    },
+    {
+      "name": "year",
+      "values":
+      [
+        {
+          "value": "2025",
+          "count": "304"
+        },
+        {
+          "value": "2024",
+          "count": "12428"
+        },
+        {
+          "value": "2023",
+          "count": "11294"
+        },
+        {
+          "value": "2022",
+          "count": "9448"
+        },
+        {
+          "value": "2021",
+          "count": "8313"
+        },
+        {
+          "value": "2020",
+          "count": "6817"
+        },
+        {
+          "value": "2019",
+          "count": "5641"
+        },
+        {
+          "value": "2018",
+          "count": "4497"
+        },
+        {
+          "value": "2017",
+          "count": "3883"
+        },
+        {
+          "value": "2016",
+          "count": "3626"
+        },
+        {
+          "value": "2015",
+          "count": "3146"
+        },
+        {
+          "value": "2014",
+          "count": "3199"
+        },
+        {
+          "value": "2013",
+          "count": "3043"
+        },
+        {
+          "value": "2012",
+          "count": "2689"
+        },
+        {
+          "value": "2011",
+          "count": "2615"
+        },
+        {
+          "value": "2010",
+          "count": "2334"
+        },
+        {
+          "value": "2009",
+          "count": "2321"
+        },
+        {
+          "value": "2008",
+          "count": "2140"
+        },
+        {
+          "value": "2007",
+          "count": "2168"
+        },
+        {
+          "value": "2006",
+          "count": "1946"
+        }
+      ]
+    },
+    {
+      "name": "country",
+      "values":
+      [
+        {
+          "value": "United States",
+          "count": "35658"
+        },
+        {
+          "value": "United Kingdom",
+          "count": "13404"
+        },
+        {
+          "value": "Germany",
+          "count": "12750"
+        },
+        {
+          "value": "China",
+          "count": "8388"
+        },
+        {
+          "value": "India",
+          "count": "7744"
+        },
+        {
+          "value": "Italy",
+          "count": "6874"
+        },
+        {
+          "value": "Canada",
+          "count": "5663"
+        },
+        {
+          "value": "France",
+          "count": "5454"
+        },
+        {
+          "value": "Australia",
+          "count": "4719"
+        },
+        {
+          "value": "Netherlands",
+          "count": "4184"
+        },
+        {
+          "value": "Spain",
+          "count": "3593"
+        },
+        {
+          "value": "Japan",
+          "count": "3281"
+        },
+        {
+          "value": "Russia",
+          "count": "3061"
+        },
+        {
+          "value": "Switzerland",
+          "count": "3007"
+        },
+        {
+          "value": "Sweden",
+          "count": "2385"
+        },
+        {
+          "value": "Austria",
+          "count": "1962"
+        },
+        {
+          "value": "Belgium",
+          "count": "1694"
+        },
+        {
+          "value": "Israel",
+          "count": "1627"
+        },
+        {
+          "value": "Denmark",
+          "count": "1585"
+        },
+        {
+          "value": "Brazil",
+          "count": "1562"
+        }
+      ]
+    },
+    {
+      "name": "type",
+      "values":
+      [
+        {
+          "value": "Book",
+          "count": "87640"
+        },
+        {
+          "value": "Journal",
+          "count": "52671"
+        }
+      ]
+    }
+  ]
+}
