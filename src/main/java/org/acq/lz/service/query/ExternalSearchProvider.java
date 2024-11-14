@@ -1,7 +1,12 @@
 package org.acq.lz.service.query;
 
-public interface ExternalSearchProvider 
+import java.util.List;
+
+public interface ExternalSearchProvider
 {
 	ICustomSearchResult search(String query, boolean isAuthorRequest);
+
+	List<CommonSearchResult> searchThruApi(String query, boolean isAuthorRequest);
+
 	String getLabel();
 }

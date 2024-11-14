@@ -1,7 +1,10 @@
 package org.acq.lz.service.query.externals.google;
 
+import org.acq.lz.service.query.CommonSearchResult;
 import org.acq.lz.service.query.ExternalSearchProvider;
 import org.acq.lz.service.query.ICustomSearchResult;
+
+import java.util.List;
 
 public class ScholarSearch implements ExternalSearchProvider
 {
@@ -34,5 +37,9 @@ public class ScholarSearch implements ExternalSearchProvider
 	public String getLabel()
 	{
 		return "Google Scholar";
+	}
+
+	public List<CommonSearchResult> searchThruApi(String query, boolean isAuthorRequest) {
+		return null;
 	}
 }
