@@ -1,0 +1,488 @@
+{
+  "feed": {
+    "entry": [
+      {
+        "summary": "  Artificial intelligence is transforming the way we work with information\nacross disciplines and practical contexts. A growing range of disciplines are\nnow involved in studying, developing, and assessing the use of AI in practice,\nbut these disciplines often employ conflicting understandings of what AI is and\nwhat is involved in its use. New, interdisciplinary approaches are needed to\nbridge competing conceptualisations of AI in practice and help shape the future\nof AI use. I propose a novel conceptual framework called AI Thinking, which\nmodels key decisions and considerations involved in AI use across disciplinary\nperspectives. The AI Thinking model addresses five practice-based competencies\ninvolved in applying AI in context: motivating AI use in information processes,\nformulating AI methods, assessing available tools and technologies, selecting\nappropriate data, and situating AI in the sociotechnical contexts it is used\nin. A hypothetical case study is provided to illustrate the application of AI\nThinking in practice. This article situates AI Thinking in broader\ncross-disciplinary discourses of AI, including its connections to ongoing\ndiscussions around AI literacy and AI-driven innovation. AI Thinking can help\nto bridge divides between academic disciplines and diverse contexts of AI use,\nand to reshape the future of AI in practice.\n",
+        "author": [
+          {
+            "name": "Denis Newman-Griffis"
+          }
+        ],
+        "primary_category": {
+          "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+          "term": "cs.CY"
+        },
+        "link": [
+          {
+            "rel": "alternate",
+            "href": "http:\/\/arxiv.org\/abs\/2409.12922v1",
+            "type": "text\/html"
+          },
+          {
+            "rel": "related",
+            "href": "http:\/\/arxiv.org\/pdf\/2409.12922v1",
+            "title": "pdf",
+            "type": "application\/pdf"
+          }
+        ],
+        "comment": "30 pages, 2 figures",
+        "id": "http:\/\/arxiv.org\/abs\/2409.12922v1",
+        "published": "2024-08-26T04:41:21Z",
+        "title": "AI Thinking: A framework for rethinking artificial intelligence in\n  practice",
+        "category": [
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.CY"
+          },
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.AI"
+          },
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.HC"
+          }
+        ],
+        "updated": "2024-08-26T04:41:21Z"
+      },
+      {
+        "summary": "  This perspective piece calls for the study of the new field of Intersymbolic\nAI, by which we mean the combination of symbolic AI, whose building blocks have\ninherent significance\/meaning, with subsymbolic AI, whose entirety creates\nsignificance\/effect despite the fact that individual building blocks escape\nmeaning. Canonical kinds of symbolic AI are logic, games and planning.\nCanonical kinds of subsymbolic AI are (un)supervised machine and reinforcement\nlearning. Intersymbolic AI interlinks the worlds of symbolic AI with its\ncompositional symbolic significance and meaning and of subsymbolic AI with its\nsummative significance or effect to enable culminations of insights from both\nworlds by going between and across symbolic AI insights with subsymbolic AI\ntechniques that are being helped by symbolic AI principles. For example,\nIntersymbolic AI may start with symbolic AI to understand a dynamic system,\ncontinue with subsymbolic AI to learn its control, and end with symbolic AI to\nsafely use the outcome of the learned subsymbolic AI controller in the dynamic\nsystem. The way Intersymbolic AI combines both symbolic and subsymbolic AI to\nincrease the effectiveness of AI compared to either kind of AI alone is likened\nto the way that the combination of both conscious and subconscious thought\nincreases the effectiveness of human thought compared to either kind of thought\nalone. Some successful contributions to the Intersymbolic AI paradigm are\nsurveyed here but many more are considered possible by advancing Intersymbolic\nAI.\n",
+        "author": [
+          {
+            "name": "André Platzer"
+          }
+        ],
+        "primary_category": {
+          "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+          "term": "cs.AI"
+        },
+        "link": [
+          {
+            "rel": "related",
+            "href": "http:\/\/dx.doi.org\/10.1007\/978-3-031-75387-9_11",
+            "title": "doi"
+          },
+          {
+            "rel": "alternate",
+            "href": "http:\/\/arxiv.org\/abs\/2406.11563v3",
+            "type": "text\/html"
+          },
+          {
+            "rel": "related",
+            "href": "http:\/\/arxiv.org\/pdf\/2406.11563v3",
+            "title": "pdf",
+            "type": "application\/pdf"
+          }
+        ],
+        "id": "http:\/\/arxiv.org\/abs\/2406.11563v3",
+        "published": "2024-06-17T14:01:59Z",
+        "title": "Intersymbolic AI: Interlinking Symbolic AI and Subsymbolic AI",
+        "category": [
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.AI"
+          },
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "68T01, 68T05, 68T07, 68T27, 68T30, 03B70"
+          },
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "I.2.0; I.2.3; I.2.4; I.2.6; I.2.8"
+          }
+        ],
+        "updated": "2024-07-26T09:52:15Z",
+        "doi": "10.1007\/978-3-031-75387-9_11"
+      },
+      {
+        "summary": "  AI transparency is a central pillar of responsible AI deployment and\neffective human-AI collaboration. A critical approach is communicating\nuncertainty, such as displaying AI's confidence level, or its correctness\nlikelihood (CL), to users. However, these confidence levels are often\nuncalibrated, either overestimating or underestimating actual CL, posing risks\nand harms to human-AI collaboration. This study examines the effects of\nuncalibrated AI confidence on users' trust in AI, AI advice adoption, and\ncollaboration outcomes. We further examined the impact of increased\ntransparency, achieved through trust calibration support, on these outcomes.\nOur results reveal that uncalibrated AI confidence leads to both the misuse of\noverconfident AI and disuse of unconfident AI, thereby hindering outcomes of\nhuman-AI collaboration. Deficiency of trust calibration support exacerbates\nthis issue by making it harder to detect uncalibrated confidence, promoting\nmisuse and disuse of AI. Conversely, trust calibration support aids in\nrecognizing uncalibration and reducing misuse, but it also fosters distrust and\ncauses disuse of AI. Our findings highlight the importance of AI confidence\ncalibration for enhancing human-AI collaboration and suggest directions for AI\ndesign and regulation.\n",
+        "author": [
+          {
+            "name": "Jingshu Li"
+          },
+          {
+            "name": "Yitian Yang"
+          },
+          {
+            "name": "Renwen Zhang"
+          },
+          {
+            "name": "Yi-chieh Lee"
+          }
+        ],
+        "primary_category": {
+          "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+          "term": "cs.AI"
+        },
+        "link": [
+          {
+            "rel": "alternate",
+            "href": "http:\/\/arxiv.org\/abs\/2402.07632v3",
+            "type": "text\/html"
+          },
+          {
+            "rel": "related",
+            "href": "http:\/\/arxiv.org\/pdf\/2402.07632v3",
+            "title": "pdf",
+            "type": "application\/pdf"
+          }
+        ],
+        "id": "http:\/\/arxiv.org\/abs\/2402.07632v3",
+        "published": "2024-02-12T13:16:30Z",
+        "title": "Overconfident and Unconfident AI Hinder Human-AI Collaboration",
+        "category": [
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.AI"
+          },
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.HC"
+          }
+        ],
+        "updated": "2024-04-17T18:37:12Z"
+      },
+      {
+        "summary": "  This paper focuses on supporting AI\/ML Security Workers -- professionals\ninvolved in the development and deployment of secure AI-enabled software\nsystems. It presents AI\/ML Adversarial Techniques, Tools, and Common Knowledge\n(AI\/ML ATT&CK) framework to enable AI\/ML Security Workers intuitively to\nexplore offensive and defensive tactics.\n",
+        "author": [
+          {
+            "name": "Mohamad Fazelnia"
+          },
+          {
+            "name": "Ahmet Okutan"
+          },
+          {
+            "name": "Mehdi Mirakhorli"
+          }
+        ],
+        "primary_category": {
+          "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+          "term": "cs.CR"
+        },
+        "link": [
+          {
+            "rel": "alternate",
+            "href": "http:\/\/arxiv.org\/abs\/2211.05075v1",
+            "type": "text\/html"
+          },
+          {
+            "rel": "related",
+            "href": "http:\/\/arxiv.org\/pdf\/2211.05075v1",
+            "title": "pdf",
+            "type": "application\/pdf"
+          }
+        ],
+        "comment": "AI\/ML ATT&CK",
+        "id": "http:\/\/arxiv.org\/abs\/2211.05075v1",
+        "published": "2022-11-09T18:07:10Z",
+        "title": "Supporting AI\/ML Security Workers through an Adversarial Techniques,\n  Tools, and Common Knowledge (AI\/ML ATT&CK) Framework",
+        "category": {
+          "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+          "term": "cs.CR"
+        },
+        "updated": "2022-11-09T18:07:10Z"
+      },
+      {
+        "summary": "  The rise in the use of AI\/ML applications across industries has sparked more\ndiscussions about the fairness of AI\/ML in recent times. While prior research\non the fairness of AI\/ML exists, there is a lack of empirical studies focused\non understanding the perspectives and experiences of AI practitioners in\ndeveloping a fair AI\/ML system. Understanding AI practitioners' perspectives\nand experiences on the fairness of AI\/ML systems are important because they are\ndirectly involved in its development and deployment and their insights can\noffer valuable real-world perspectives on the challenges associated with\nensuring fairness in AI\/ML systems. We conducted semi-structured interviews\nwith 22 AI practitioners to investigate their understanding of what a 'fair\nAI\/ML' is, the challenges they face in developing a fair AI\/ML system, the\nconsequences of developing an unfair AI\/ML system, and the strategies they\nemploy to ensure AI\/ML system fairness. We developed a framework showcasing the\nrelationship between AI practitioners' understanding of 'fair AI\/ML' system and\n(i) their challenges in its development, (ii) the consequences of developing an\nunfair AI\/ML system, and (iii) strategies used to ensure AI\/ML system fairness.\nBy exploring AI practitioners' perspectives and experiences, this study\nprovides actionable insights to enhance AI\/ML fairness, which may promote\nfairer systems, reduce bias, and foster public trust in AI technologies.\nAdditionally, we also identify areas for further investigation and offer\nrecommendations to aid AI practitioners and AI companies in navigating\nfairness.\n",
+        "author": [
+          {
+            "name": "Aastha Pant"
+          },
+          {
+            "name": "Rashina Hoda"
+          },
+          {
+            "name": "Chakkrit Tantithamthavorn"
+          },
+          {
+            "name": "Burak Turhan"
+          }
+        ],
+        "primary_category": {
+          "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+          "term": "cs.CY"
+        },
+        "link": [
+          {
+            "rel": "alternate",
+            "href": "http:\/\/arxiv.org\/abs\/2403.15481v2",
+            "type": "text\/html"
+          },
+          {
+            "rel": "related",
+            "href": "http:\/\/arxiv.org\/pdf\/2403.15481v2",
+            "title": "pdf",
+            "type": "application\/pdf"
+          }
+        ],
+        "comment": "46 pages, 8 figures, 2 tables",
+        "id": "http:\/\/arxiv.org\/abs\/2403.15481v2",
+        "published": "2024-03-21T03:44:59Z",
+        "title": "Navigating Fairness: Practitioners' Understanding, Challenges, and\n  Strategies in AI\/ML Development",
+        "category": [
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.CY"
+          },
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.AI"
+          },
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.SE"
+          }
+        ],
+        "updated": "2024-07-31T14:47:24Z"
+      },
+      {
+        "summary": "  AI has surpassed humans across a variety of tasks such as image\nclassification, playing games (e.g., go, \"Starcraft\" and poker), and protein\nstructure prediction. However, at the same time, AI is also bearing serious\ncontroversies. Many researchers argue that little substantial progress has been\nmade for AI in recent decades. In this paper, the author (1) explains why\ncontroversies about AI exist; (2) discriminates two paradigms of AI research,\ntermed \"weak AI\" and \"strong AI\" (a.k.a. artificial general intelligence); (3)\nclarifies how to judge which paradigm a research work should be classified\ninto; (4) discusses what is the greatest value of \"weak AI\" if it has no chance\nto develop into \"strong AI\".\n",
+        "author": [
+          {
+            "name": "Bin Liu"
+          }
+        ],
+        "primary_category": {
+          "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+          "term": "cs.AI"
+        },
+        "link": [
+          {
+            "rel": "alternate",
+            "href": "http:\/\/arxiv.org\/abs\/2103.15294v1",
+            "type": "text\/html"
+          },
+          {
+            "rel": "related",
+            "href": "http:\/\/arxiv.org\/pdf\/2103.15294v1",
+            "title": "pdf",
+            "type": "application\/pdf"
+          }
+        ],
+        "comment": "7 pages",
+        "id": "http:\/\/arxiv.org\/abs\/2103.15294v1",
+        "published": "2021-03-29T02:57:48Z",
+        "title": "\"Weak AI\" is Likely to Never Become \"Strong AI\", So What is its Greatest\n  Value for us?",
+        "category": {
+          "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+          "term": "cs.AI"
+        },
+        "updated": "2021-03-29T02:57:48Z"
+      },
+      {
+        "summary": "  Artificial Intelligence (AI) Ethics is a nascent yet critical research field.\nRecent developments in generative AI and foundational models necessitate a\nrenewed look at the problem of AI Ethics. In this study, we perform a\nbibliometric analysis of AI Ethics literature for the last 20 years based on\nkeyword search. Our study reveals a three-phase development in AI Ethics,\nnamely an incubation phase, making AI human-like machines phase, and making AI\nhuman-centric machines phase. We conjecture that the next phase of AI ethics is\nlikely to focus on making AI more machine-like as AI matches or surpasses\nhumans intellectually, a term we coin as \"machine-like human\".\n",
+        "author": [
+          {
+            "name": "Di Kevin Gao"
+          },
+          {
+            "name": "Andrew Haverly"
+          },
+          {
+            "name": "Sudip Mittal"
+          },
+          {
+            "name": "Jingdao Chen"
+          }
+        ],
+        "primary_category": {
+          "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+          "term": "cs.CY"
+        },
+        "link": [
+          {
+            "rel": "alternate",
+            "href": "http:\/\/arxiv.org\/abs\/2403.05551v1",
+            "type": "text\/html"
+          },
+          {
+            "rel": "related",
+            "href": "http:\/\/arxiv.org\/pdf\/2403.05551v1",
+            "title": "pdf",
+            "type": "application\/pdf"
+          }
+        ],
+        "id": "http:\/\/arxiv.org\/abs\/2403.05551v1",
+        "published": "2024-02-08T16:36:55Z",
+        "title": "A Bibliometric View of AI Ethics Development",
+        "category": {
+          "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+          "term": "cs.CY"
+        },
+        "updated": "2024-02-08T16:36:55Z"
+      },
+      {
+        "summary": "  The comprehension and adoption of Artificial Intelligence (AI) are beset with\npractical and ethical problems. This article presents a 5-level AI Capability\nAssessment Model (AI-CAM) and a related AI Capabilities Matrix (AI-CM) to\nassist practitioners in AI comprehension and adoption. These practical tools\nwere developed with business executives, technologists, and other\norganisational stakeholders in mind. They are founded on a comprehensive\nconception of AI compared to those in other AI adoption models and are also\nopen-source artefacts. Thus, the AI-CAM and AI-CM present an accessible\nresource to help inform organisational decision-makers on the capability\nrequirements for (1) AI-based data analytics use cases based on machine\nlearning technologies; (2) Knowledge representation to engineer and represent\ndata, information and knowledge using semantic technologies; and (3) AI-based\nsolutions that seek to emulate human reasoning and decision-making. The AI-CAM\ncovers the core capability dimensions (business, data, technology,\norganisation, AI skills, risks, and ethical considerations) required at the\nfive capability maturity levels to achieve optimal use of AI in organisations.\n",
+        "journal_ref": "Journal of AI, Robotics & Workplace Automation, 1 (1), 18-33\n  (2021)",
+        "author": [
+          {
+            "name": " Butler"
+          },
+          {
+            "name": " Tom"
+          },
+          {
+            "name": " Espinoza-Limón"
+          },
+          {
+            "name": " Angelina"
+          },
+          {
+            "name": " Seppälä"
+          },
+          {
+            "name": " Selja"
+          }
+        ],
+        "primary_category": {
+          "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+          "term": "cs.CY"
+        },
+        "link": [
+          {
+            "rel": "alternate",
+            "href": "http:\/\/arxiv.org\/abs\/2305.15922v1",
+            "type": "text\/html"
+          },
+          {
+            "rel": "related",
+            "href": "http:\/\/arxiv.org\/pdf\/2305.15922v1",
+            "title": "pdf",
+            "type": "application\/pdf"
+          }
+        ],
+        "id": "http:\/\/arxiv.org\/abs\/2305.15922v1",
+        "published": "2023-05-25T10:43:54Z",
+        "title": "Towards a Capability Assessment Model for the Comprehension and Adoption\n  of AI in Organisations",
+        "category": [
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.CY"
+          },
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.AI"
+          },
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.SE"
+          },
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "K.1; D.2.9; K.6.1; K.6.0; K.7.2; I.2"
+          }
+        ],
+        "updated": "2023-05-25T10:43:54Z"
+      },
+      {
+        "summary": "  With advanced AI\/ML, there has been growing research on explainable AI (XAI)\nand studies on how humans interact with AI and XAI for effective human-AI\ncollaborative decision-making. However, we still have a lack of understanding\nof how AI systems and XAI should be first presented to users without technical\nbackgrounds. In this paper, we present the findings of semi-structured\ninterviews with health professionals (n=12) and students (n=4) majoring in\nmedicine and health to study how to improve onboarding with AI and XAI. For the\ninterviews, we built upon human-AI interaction guidelines to create onboarding\nmaterials of an AI system for stroke rehabilitation assessment and AI\nexplanations and introduce them to the participants. Our findings reveal that\nbeyond presenting traditional performance metrics on AI, participants desired\nbenchmark information, the practical benefits of AI, and interaction trials to\nbetter contextualize AI performance, and refine the objectives and performance\nof AI. Based on these findings, we highlight directions for improving\nonboarding with AI and XAI and human-AI collaborative decision-making.\n",
+        "author": [
+          {
+            "name": "Min Hun Lee"
+          },
+          {
+            "name": "Silvana Xin Yi Choo"
+          },
+          {
+            "name": "Shamala D\/O Thilarajah"
+          }
+        ],
+        "primary_category": {
+          "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+          "term": "cs.HC"
+        },
+        "link": [
+          {
+            "rel": "alternate",
+            "href": "http:\/\/arxiv.org\/abs\/2405.16424v1",
+            "type": "text\/html"
+          },
+          {
+            "rel": "related",
+            "href": "http:\/\/arxiv.org\/pdf\/2405.16424v1",
+            "title": "pdf",
+            "type": "application\/pdf"
+          }
+        ],
+        "id": "http:\/\/arxiv.org\/abs\/2405.16424v1",
+        "published": "2024-05-26T04:30:17Z",
+        "title": "Improving Health Professionals' Onboarding with AI and XAI for\n  Trustworthy Human-AI Collaborative Decision Making",
+        "category": [
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.HC"
+          },
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.AI"
+          },
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.LG"
+          }
+        ],
+        "updated": "2024-05-26T04:30:17Z"
+      },
+      {
+        "summary": "  Artificial intelligence (AI) and human-machine interaction (HMI) are two\nkeywords that usually do not fit embedded applications. Within the steps needed\nbefore applying AI to solve a specific task, HMI is usually missing during the\nAI architecture design and the training of an AI model. The human-in-the-loop\nconcept is prevalent in all other steps of developing AI, from data analysis\nvia data selection and cleaning to performance evaluation. During AI\narchitecture design, HMI can immediately highlight unproductive layers of the\narchitecture so that lightweight network architecture for embedded applications\ncan be created easily. We show that by using this HMI, users can instantly\ndistinguish which AI architecture should be trained and evaluated first since a\nhigh accuracy on the task could be expected. This approach reduces the\nresources needed for AI development by avoiding training and evaluating AI\narchitectures with unproductive layers and leads to lightweight AI\narchitectures. These resulting lightweight AI architectures will enable HMI\nwhile running the AI on an edge device. By enabling HMI during an AI uses\ninference, we will introduce the AI-in-the-loop concept that combines AI's and\nhumans' strengths. In our AI-in-the-loop approach, the AI remains the working\nhorse and primarily solves the task. If the AI is unsure whether its inference\nsolves the task correctly, it asks the user to use an appropriate HMI.\nConsequently, AI will become available in many applications soon since HMI will\nmake AI more reliable and explainable.\n",
+        "author": [
+          {
+            "name": "Julius Schöning"
+          },
+          {
+            "name": "Clemens Westerkamp"
+          }
+        ],
+        "primary_category": {
+          "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+          "term": "cs.HC"
+        },
+        "link": [
+          {
+            "rel": "alternate",
+            "href": "http:\/\/arxiv.org\/abs\/2303.11508v1",
+            "type": "text\/html"
+          },
+          {
+            "rel": "related",
+            "href": "http:\/\/arxiv.org\/pdf\/2303.11508v1",
+            "title": "pdf",
+            "type": "application\/pdf"
+          }
+        ],
+        "comment": "12 pages; 9 figures; 1 table;",
+        "id": "http:\/\/arxiv.org\/abs\/2303.11508v1",
+        "published": "2023-03-21T00:04:33Z",
+        "title": "AI-in-the-Loop -- The impact of HMI in AI-based Application",
+        "category": [
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.HC"
+          },
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.AI"
+          },
+          {
+            "scheme": "http:\/\/arxiv.org\/schemas\/atom",
+            "term": "cs.LG"
+          }
+        ],
+        "updated": "2023-03-21T00:04:33Z"
+      }
+    ],
+    "totalResults": "27961",
+    "startIndex": "0",
+    "itemsPerPage": "10",
+    "link": {
+      "rel": "self",
+      "href": "http:\/\/arxiv.org\/api\/query?search_query%3Dall%3AAI%26id_list%3D%26start%3D0%26max_results%3D10",
+      "type": "application\/atom+xml"
+    },
+    "id": "http:\/\/arxiv.org\/api\/3eC8vfFF8FhY0s4CCMy1dHnVbKY",
+    "title": {
+      "type": "html"
+    },
+    "updated": "2024-11-16T00:00:00-05:00"
+  }
+}
