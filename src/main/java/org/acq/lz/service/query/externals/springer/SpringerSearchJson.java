@@ -25,13 +25,12 @@ public class SpringerSearchJson extends AbstractExternalSearch<SpringerResultVO>
 
 	private static final String pageSize()
 	{
-		return "&p=20";
+		return "20";
 	}
 
-	private static final String apiKey = "&api_key=cfd1b47b8f35b8ad13df890ac03c826e";
+	private static final String apiKey = "&api_key=cfd1b47b8f35b8ad13df890ac03c826e&p=";
 
-	public String getLabel()
-	{
+	public String getLabel(){
 		return "Springer";
 	}
 
@@ -39,7 +38,7 @@ public class SpringerSearchJson extends AbstractExternalSearch<SpringerResultVO>
 	protected SpringerResultVO doSearch(String query, boolean isAuthorRequest) {
 		String content = null;
 		try {
-			String url = urlStart + URLEncoder.encode(query, "UTF-8") + pageSize() + apiKey;
+			String url = urlStart + URLEncoder.encode(query, "UTF-8")+ apiKey + pageSize() ;
 			content = BrowseUtils.getResponse(url);
 		}catch (Exception e){
 			logger.error("failed to get connection to server.", e);
@@ -78,7 +77,7 @@ public class SpringerSearchJson extends AbstractExternalSearch<SpringerResultVO>
 			result.setKeyword(record.getKeyword());
 			result.setUrl(record.getUrl().get(0).getValue());
 			result.setSubjects(record.getSubjects());
-
+			result.setSource(getLabel());
 			results.add(result);
 		}
 		return results;

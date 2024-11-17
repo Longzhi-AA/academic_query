@@ -18,7 +18,7 @@ public class ExternalSearchTest {
     @Test
     public void testSpringerSearch(){
         SpringerSearchJson springerSearch = new SpringerSearchJson();
-        List<CommonSearchResult> result = springerSearch.searchThruApi("spring", false);
+        List<CommonSearchResult> result = springerSearch.search("spring");
         System.out.println(result);
 
 
@@ -27,7 +27,7 @@ public class ExternalSearchTest {
     @Test
     public void testArxivSearch(){
         ArxivSearchJson arxivSearchJson = new ArxivSearchJson();
-        List<CommonSearchResult> result = arxivSearchJson.searchThruApi("AI", false);
+        List<CommonSearchResult> result = arxivSearchJson.search("AI");
         System.out.println(result);
     }
 }

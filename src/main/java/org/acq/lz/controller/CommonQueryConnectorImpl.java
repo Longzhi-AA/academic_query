@@ -1,8 +1,12 @@
 package org.acq.lz.controller;
 
 
+import cn.hutool.core.util.StrUtil;
+import org.acq.lz.config.enums.QueryTypeEnum;
+import org.acq.lz.service.ISearchProvider;
 import org.acq.lz.service.query.CommonSearchResult;
-import org.acq.lz.service.query.SearchEngin;
+import org.acq.lz.service.SearchEngin;
+import org.acq.lz.vo.QueryReqeust;
 import org.acq.lz.vo.RestResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,19 +24,24 @@ public class CommonQueryConnectorImpl implements ICommonQueryConnector {
     private static final Logger logger = LoggerFactory.getLogger(CommonQueryConnectorImpl.class);
 
     @Autowired
-    @Qualifier(("SpringerSearchJson"))
-    private SearchEngin springSearch;
+    @Qualifier("ISearchProviderImpl")
+    private ISearchProvider searchProvider;
 
     @Override
     @ResponseBody
-    public RestResponse<List<CommonSearchResult>> querySpringner(@RequestBody String query) {
+    public RestResponse<List<CommonSearchResult>> querySpringner(@RequestBody QueryReqeust query) {
         if (logger.isInfoEnabled()){
-            logger.info("querySpringner received quest:{}", query);
+            logger.info("received query quest:{}", query);
         }
         RestResponse response = new RestResponse<>();
         List<CommonSearchResult> data = null;
+
+        if (query == null || StrUtil.isBlank(query.getQuery())){
+            return response.buildSuccessResponse(null);
+        }
+
         try {
-            data = springSearch.search(query);
+            data = searchProvider.search(query);
         }catch (Exception e){
             logger.error("springSearch error.", e);
             return response.buildFailResponse("-1", e.getMessage());

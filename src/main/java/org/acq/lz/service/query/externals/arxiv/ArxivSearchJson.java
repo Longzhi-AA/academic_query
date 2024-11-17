@@ -33,6 +33,10 @@ public class ArxivSearchJson extends AbstractExternalSearch<ArxivResult> {
 
     private static final String apiKey = "";
 
+    public String getLabel(){
+        return "Arxiv";
+    }
+
     @Override
     protected ArxivResult doSearch(String query, boolean isAuthorRequest) {
         String content = null;
@@ -78,7 +82,7 @@ public class ArxivSearchJson extends AbstractExternalSearch<ArxivResult> {
             result.setKeyword(null);
             result.setUrl(record.getUrl());
             result.setSubjects(null);
-
+            result.setSource(getLabel());
             results.add(result);
         }
         return results;

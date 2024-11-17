@@ -22,4 +22,6 @@ public class CommonSearchResult {
     private List<String> subjects;
 
     private String publicationDate;
+
+    private String source;
 }
