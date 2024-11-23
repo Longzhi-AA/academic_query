@@ -9,6 +9,6 @@ import java.util.List;
 
 public interface ICommonQueryConnector {
 
-    @PostMapping("/v1.0/query/querySpringner")
-    RestResponse<List<CommonSearchResult>> querySpringner(QueryReqeust query);
+    @PostMapping("/v1.0/query")
+    RestResponse<List<CommonSearchResult>> query(QueryReqeust query);
 }

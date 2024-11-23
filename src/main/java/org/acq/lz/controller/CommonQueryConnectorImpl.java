@@ -29,7 +29,7 @@ public class CommonQueryConnectorImpl implements ICommonQueryConnector {
 
     @Override
     @ResponseBody
-    public RestResponse<List<CommonSearchResult>> querySpringner(@RequestBody QueryReqeust query) {
+    public RestResponse<List<CommonSearchResult>> query(@RequestBody QueryReqeust query) {
         if (logger.isInfoEnabled()){
             logger.info("received query quest:{}", query);
         }
