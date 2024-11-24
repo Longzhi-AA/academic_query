@@ -17,4 +17,8 @@ public abstract class AbstractExternalSearch<T> implements SearchEngin {
 
 
     protected abstract List<CommonSearchResult> buildSearchResult(T resultVO);
+
+    protected String getLabel(){
+        return "";
+    };
 }

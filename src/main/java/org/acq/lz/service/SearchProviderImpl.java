@@ -6,8 +6,8 @@ import org.acq.lz.config.enums.QueryTypeEnum;
 import org.acq.lz.service.query.CommonSearchResult;
 import org.acq.lz.utils.SpringContextUtil;
 import org.acq.lz.vo.QueryReqeust;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
@@ -20,7 +20,7 @@ import java.util.concurrent.CompletableFuture;
 @Service("ISearchProviderImpl")
 public class SearchProviderImpl implements ISearchProvider{
 
-    private static final Logger logger = LoggerFactory.getLogger("SearchProviderImpl");
+    private static final Logger logger = LogManager.getLogger("SearchProviderImpl");
 
     private static final Long TIME_OUT = 200 * 1000L;
 

@@ -5,6 +5,12 @@ spring:
   application:
     name: academic query
 
+logging:
+  config: classpath:log4j.xml
+#  level:
+#    org.acq.lz.*: debug
+#  pattern:
+#    console: "%d{yyyy-MM-dd HH:mm:ss} %clr(%-5level) [%magenta(${spring.application.name})] --- %cyan(%-30.30logger{0}) : %m%n"
 
 #  datasource:
 #    url: jdbc:mysql://localhost:3306/useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false

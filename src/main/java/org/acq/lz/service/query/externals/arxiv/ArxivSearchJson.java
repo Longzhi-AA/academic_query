@@ -11,8 +11,8 @@ import org.acq.lz.vo.arxiv.ArxivResult;
 import org.acq.lz.vo.arxiv.Author;
 import org.acq.lz.vo.arxiv.Entry;
 import org.acq.lz.vo.arxiv.Feed;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Component;
 
 import java.net.URLEncoder;
@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 @Component("ArxivSearchJson")
 public class ArxivSearchJson extends AbstractExternalSearch<ArxivResult> {
 
-    private static final Logger logger = LoggerFactory.getLogger(SpringerSearchJson.class);
+    private static final Logger logger = LogManager.getLogger(SpringerSearchJson.class);
     private static final String urlStart = "http://export.arxiv.org/api/query?search_query=all:";
     private static final String urlEnd = "&start=0&max_results=";
     private static final String pageSize()
@@ -33,6 +33,7 @@ public class ArxivSearchJson extends AbstractExternalSearch<ArxivResult> {
 
     private static final String apiKey = "";
 
+    @Override
     public String getLabel(){
         return "Arxiv";
     }
@@ -65,7 +66,7 @@ public class ArxivSearchJson extends AbstractExternalSearch<ArxivResult> {
             return results;
         }
         Feed records = resultVO.getFeed();
-        if (records == null || records.getEntries().isEmpty()) {
+        if (records == null || records.getEntries()==null || records.getEntries().isEmpty()) {
             return results;
         }
 

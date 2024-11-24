@@ -8,8 +8,8 @@ import org.acq.lz.service.query.CommonSearchResult;
 import org.acq.lz.service.SearchEngin;
 import org.acq.lz.vo.QueryReqeust;
 import org.acq.lz.vo.RestResponse;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
@@ -21,7 +21,7 @@ import java.util.List;
 @Controller
 public class CommonQueryConnectorImpl implements ICommonQueryConnector {
 
-    private static final Logger logger = LoggerFactory.getLogger(CommonQueryConnectorImpl.class);
+    private static final Logger logger = LogManager.getLogger(CommonQueryConnectorImpl.class);
 
     @Autowired
     @Qualifier("ISearchProviderImpl")

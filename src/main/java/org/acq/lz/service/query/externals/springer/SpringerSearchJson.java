@@ -7,8 +7,8 @@ import org.acq.lz.utils.FastJsonUtil;
 import org.acq.lz.vo.springer.Creator;
 import org.acq.lz.vo.springer.Record;
 import org.acq.lz.vo.springer.SpringerResultVO;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Component;
 
 import java.net.URLEncoder;
@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 public class SpringerSearchJson extends AbstractExternalSearch<SpringerResultVO>
 {
 
-	private static final Logger logger = LoggerFactory.getLogger(SpringerSearchJson.class);
+	private static final Logger logger = LogManager.getLogger(SpringerSearchJson.class);
 	private static final String urlStart = "http://api.springernature.com/meta/v2/json?q=";
 
 	private static final String pageSize()
@@ -30,6 +30,7 @@ public class SpringerSearchJson extends AbstractExternalSearch<SpringerResultVO>
 
 	private static final String apiKey = "&api_key=cfd1b47b8f35b8ad13df890ac03c826e&p=";
 
+	@Override
 	public String getLabel(){
 		return "Springer";
 	}
